@@ -43,6 +43,15 @@ align-items: center;
     font-size: 20px;
 }
 
+.section { 
+    position: absolute;
+    transform: rotate(calc(30deg * var(--rlg)));
+    inset: 12px;
+    text-align: center;
+
+}
+
+
 .clock::before{
     content: '';
     position: absolute;
